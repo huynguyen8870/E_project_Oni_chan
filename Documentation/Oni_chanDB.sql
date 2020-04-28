@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1:3308
--- Thời gian đã tạo: Th4 27, 2020 lúc 09:57 AM
+-- Thời gian đã tạo: Th4 28, 2020 lúc 03:49 AM
 -- Phiên bản máy phục vụ: 8.0.18
 -- Phiên bản PHP: 7.3.12
 
@@ -76,8 +76,9 @@ CREATE TABLE IF NOT EXISTS `chapter` (
   `chapterName` varchar(100) NOT NULL,
   `mangaID` varchar(100) NOT NULL,
   `content` varchar(100) NOT NULL,
-  `view` varchar(100) NOT NULL,
+  `view` int(11) NOT NULL,
   `lastUpdate` date NOT NULL,
+  `lastChapter` varchar(100) NOT NULL,
   PRIMARY KEY (`chapterID`),
   KEY `fk_mangaChapter` (`mangaID`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
