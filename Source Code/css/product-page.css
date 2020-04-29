@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+
+.panel-title a
+{
+	font-size: 18px;
+	color: rgba(100,100,100,1.00);
+}
+
+.sidebar
+{
+	background-color: rgba(246,246,246,1.00);
+	height: 400px;
+	width: 180px;
+	padding-left: 3%;
+	padding-right: 3%;
+	padding-top: 12px;
+}
+
+.list-women-product a
+{
+	font-size: 15px;
+	color: rgba(146,146,146,1.00);
+}
+
+.list-men-product a
+{
+	font-size: 15px;
+	color: rgba(146,146,146,1.00);
+}
+
+
+.card-title
+{
+	font-size: 13px;
+	color: rgba(146,146,146,1.00);
+}
+
+
+.price
+{
+	font-size: 18px;
+	color: rgba(146,146,146,1.00);
+}
+
+.card-img-top-1
+{
+	height: 200px;
+	width: 270px;
+}

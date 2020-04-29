@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+
+.title-information-page a
+{
+	font-size: 13px;
+	color: rgba(100,100,100,1.00);
+}
+
+.carousel-control-prev-icon {
+ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+.title-of-product
+{
+	font-size: 28px;
+	font-weight: 500;
+}
+
+.Price
+{
+	font-size: 25px;
+}
+
+.add-to-bag
+{
+	border: none;
+	text-decoration: none;
+	background-color:rgba(38,38,38,1.00);
+	color:rgba(255,255,255,1.00);
+	width: 50%;
+	height: 50px;
+}
+
+.Property
+{
+	font-size: 15px;
+	color: rgba(100,100,100,1.00);
+
+}
+
+.panel-title a
+{
+	font-size: 18px;
+	color: rgba(100,100,100,1.00);
+	text-decoration: none;
+	
+}
+
+.title-contact-us
+{
+	font-size: 25px;
+	color: rgba(100,100,100,1.00);
+	text-align: center;
+}
